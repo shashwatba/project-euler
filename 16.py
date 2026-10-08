@@ -7,8 +7,8 @@ def main():
         x = x // 10
 
     sum += x
-    print(x)
-    print(sum)
+    
+    return sum
 
 
 if __name__ == "__main__":
