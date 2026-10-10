@@ -24,7 +24,6 @@ def traverse(row, col, total, visited, maximum):
         if total + triangle[row][col] <= visited[(row,col)]:
             return maximum
 
-
     
     total += triangle[row][col]
     maximum = max(maximum, total)
